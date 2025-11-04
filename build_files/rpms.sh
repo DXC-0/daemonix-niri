@@ -11,7 +11,7 @@ DESKTOP_ENV_PACKAGES=(
   gvfs
   gvfs-smb
   seatd
-  greatd
+  greetd
   gtkgreet
 )
 
