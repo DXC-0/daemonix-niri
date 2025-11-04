@@ -1,5 +1,5 @@
 #!/bin/bash
 
 systemctl enable podman.socket
-systemctl enable greetd.service
+systemctl enable lightdm.service
 systemctl set-default graphical.target
