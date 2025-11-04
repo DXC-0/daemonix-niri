@@ -389,5 +389,12 @@ cat << 'EOF' > /etc/wofi/style.css
 }
 EOF
 
-sudo sed -i 's/^#\?\s*autologin-user=.*/autologin-user=alerion/' /etc/lightdm/lightdm.conf
-sudo sed -i 's/^#\?\s*autologin-session=.*/autologin-session=niri/' /etc/lightdm/lightdm.conf
+cat << 'EOF' > /etc/lightdm/lightdm.conf
+[LightDM]
+start-default-seat=true
+greeter-user=lightdm
+
+[Seat:*]
+greeter-session=lightdm-gtk-greeter
+user-session=niri
+EOF
