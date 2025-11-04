@@ -389,6 +389,8 @@ cat << 'EOF' > /etc/wofi/style.css
 }
 EOF
 
+# Login manager
+
 cat << 'EOF' > /etc/greetd/config.toml
 
 [default_session]
