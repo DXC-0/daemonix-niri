@@ -13,6 +13,7 @@ DESKTOP_ENV_PACKAGES=(
   greetd
   greetd-selinux
   tuigreet
+  polkit-gnome
 )
 
 dnf install -y "${DESKTOP_ENV_PACKAGES[@]}"
