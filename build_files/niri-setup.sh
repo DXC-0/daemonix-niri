@@ -339,7 +339,7 @@ location=center
 key_expand=Tab
 insensitive=false
 single_click=true
-style=style=/etc/wofi/style.css
+style=/etc/wofi/style.css
 EOF
 
 # Wofi style
