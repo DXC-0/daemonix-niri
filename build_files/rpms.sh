@@ -3,9 +3,6 @@
 # Niri core components
 
 DESKTOP_ENV_PACKAGES=(
-  seatd
-  greatd
-  gtkgreet
   wofi
   niri
   dunst
@@ -13,6 +10,9 @@ DESKTOP_ENV_PACKAGES=(
   nautilus
   gvfs
   gvfs-smb
+  seatd
+  greatd
+  gtkgreet
 )
 
 dnf install -y "${DESKTOP_ENV_PACKAGES[@]}"
