@@ -388,15 +388,3 @@ cat << 'EOF' > /etc/wofi/style.css
   margin: 2px;
 }
 EOF
-
-# Lightdm configuration
-
-cat << 'EOF' > /etc/lightdm/lightdm.conf
-[LightDM]
-start-default-seat=true
-greeter-user=lightdm
-
-[Seat:*]
-greeter-session=lightdm-gtk-greeter
-user-session=niri
-EOF
