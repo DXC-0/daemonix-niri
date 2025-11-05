@@ -10,10 +10,7 @@ DESKTOP_ENV_PACKAGES=(
   nautilus
   gvfs
   gvfs-smb
-  greetd
-  greetd-selinux
-  tuigreet
-  polkit-gnome
+  mate-polkit
 )
 
 dnf install -y "${DESKTOP_ENV_PACKAGES[@]}"
