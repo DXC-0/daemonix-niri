@@ -10,7 +10,7 @@ DESKTOP_ENV_PACKAGES=(
   nautilus
   gvfs
   gvfs-smb
-  mate-polkit
+  lxqt-policykit
 )
 
 dnf install -y "${DESKTOP_ENV_PACKAGES[@]}"
